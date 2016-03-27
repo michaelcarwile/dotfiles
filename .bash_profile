@@ -10,3 +10,10 @@ fi
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+# aliases
+alias l="ls -lahG"
+alias ls="ls -lahG"
+alias ll="ls -lahG"
+alias gs="git status"
+alias gp="git pull"
