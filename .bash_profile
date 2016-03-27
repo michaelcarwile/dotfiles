@@ -1,1 +1,1 @@
-export PS1="\D{%a %F} \t \u@\h:\w\n\\$\[$(tput sgr0)\] "
+export PS1="\D{%F %H:%M:%S %a} \u@\h:\w\n\\$\[$(tput sgr0)\] "
