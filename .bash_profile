@@ -1,5 +1,5 @@
 # personalize the prompt
-export PS1="\D{%F %H:%M:%S %a} \u@\h:\w\n\\$\[$(tput sgr0)\] "
+export PS1="\D{%F %H:%M:%S %a} \u@\H:\w\n\\$\[$(tput sgr0)\] "
 
 # enable git-completion
 if [ -f ~/.git-completion.bash ]; then
