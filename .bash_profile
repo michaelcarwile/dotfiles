@@ -1,10 +1,7 @@
-# personalize the prompt
-export PS1="\D{%F %H:%M:%S %a} \u@\h:\w\n\\$\[$(tput sgr0)\] "
-
-# enable homebrew bash completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+# add git branch to prompt
+function parse_git_branch {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
+}
 
 # enable git-completion
 if [ -f ~/.git-completion.bash ]; then
@@ -17,3 +14,7 @@ alias ls="ls -lahG"
 alias ll="ls -lahG"
 alias gs="git status"
 alias gp="git pull"
+
+# personalize the prompt
+export PS1="\D{%F %H:%M:%S %a} \u@\h:\w\n\$(parse_git_branch)$\[$(tput sgr0)\] "
+
