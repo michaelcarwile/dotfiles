@@ -1,5 +1,3 @@
-" Last mod: 2016-03-27 05:57:25 Sun
-
 " be iMproved
 set nocompatible
 
@@ -37,3 +35,6 @@ set ttymouse=xterm2
 " <F5> for timestamp insertion
 :nnoremap <F5> "=strftime("%Y-%m-%d %H:%M:%S %a")<CR>P
 :inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S %a")<CR>
+
+" Last mod: 2016-07-09 16:10:03 Sat
+
