@@ -8,6 +8,7 @@ call vundle#begin()
 
 "" Vundle Plugins START
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-surround'
 "" Vundle Plugins END
 
 call vundle#end()
