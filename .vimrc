@@ -1,6 +1,19 @@
 " be iMproved
 set nocompatible
 
+" Vundle START
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+"" Vundle Plugins START
+Plugin 'VundleVim/Vundle.vim'
+"" Vundle Plugins END
+
+call vundle#end()
+filetype plugin indent on
+" Vundle END
+
 " enable syntax highlighting
 syntax on
 
