@@ -17,3 +17,7 @@ alias gp="git pull"
 
 # personalize the prompt
 export PS1="\D{%F %H:%M:%S %a} \u@\h:\w\n\$(parse_git_branch)$\[$(tput sgr0)\] "
+
+# add composer to PATH
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+export PATH="/usr/local/sbin:$PATH"
