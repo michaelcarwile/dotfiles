@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'edsono/vim-matchit'
+Plugin 'Townk/vim-autoclose'
 "" Vundle Plugins END
 
 call vundle#end()
