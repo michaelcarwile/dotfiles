@@ -12,6 +12,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'edsono/vim-matchit'
 Plugin 'Townk/vim-autoclose'
 Plugin 'alvan/vim-closetag'
+Plugin 'vim-scripts/CycleColor'
 "" Vundle Plugins END
 
 call vundle#end()
