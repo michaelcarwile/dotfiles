@@ -9,9 +9,9 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # aliases
-alias l="ls -lahG"
-alias ls="ls -lahG"
-alias ll="ls -lahG"
+alias l="ls -lahGF"
+alias ls="ls -lahGF"
+alias ll="ls -lahGF"
 alias gs="git status"
 alias gp="git pull"
 
