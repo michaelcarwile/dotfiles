@@ -11,6 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'edsono/vim-matchit'
 Plugin 'Townk/vim-autoclose'
+Plugin 'alvan/vim-closetag'
 "" Vundle Plugins END
 
 call vundle#end()
